@@ -19,7 +19,7 @@ const App = () => {
       {/* AdSense Placeholder - Top Banner */}
       <div className="my-6 mx-auto text-center max-w-4xl">
         <div className="bg-gray-200 text-center p-4 rounded-md text-sm text-gray-600">
-          [ AdSense Top Banner Placeholder ]
+      {/* AdSense Placeholder - Header */}
         </div>
       </div>
 
@@ -36,7 +36,7 @@ const App = () => {
       {/* AdSense Placeholder - Footer */}
       <footer className="text-center text-sm text-gray-500 mt-10 mb-6">
         <div className="bg-gray-200 text-center p-4 rounded-md text-sm text-gray-600 mb-2">
-          [ AdSense Footer Placeholder ]
+      {/* Banner for footer */}
         </div>
         © 2025 QuickTools4U. All rights reserved.
       </footer>
