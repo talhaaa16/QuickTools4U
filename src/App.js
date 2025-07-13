@@ -9,17 +9,24 @@ import FunQuotes from "./components/Funquotes";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-
 const App = () => {
   return (
     <Router>
       <Navbar />
-            <ToastContainer />
+      <ToastContainer position="top-center" autoClose={2000} />
 
-      {/* AdSense Placeholder - Top Banner */}
+      {/* ✅ AdSense Banner Placeholder - Top */}
       <div className="my-6 mx-auto text-center max-w-4xl">
-        <div className="bg-gray-200 text-center p-4 rounded-md text-sm text-gray-600">
-      {/* AdSense Placeholder - Header */}
+        <div className="bg-gray-100 p-4 rounded-md text-gray-600 text-sm">
+          {/* AdSense code can go here */}
+          {/* Example:
+          <ins className="adsbygoogle"
+              style={{ display: "block" }}
+              data-ad-client="ca-pub-XXXX"
+              data-ad-slot="XXXX"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          */}
         </div>
       </div>
 
@@ -33,12 +40,12 @@ const App = () => {
         </Routes>
       </main>
 
-      {/* AdSense Placeholder - Footer */}
+      {/* ✅ AdSense Footer Placeholder */}
       <footer className="text-center text-sm text-gray-500 mt-10 mb-6">
-        <div className="bg-gray-200 text-center p-4 rounded-md text-sm text-gray-600 mb-2">
-      {/* Banner for footer */}
+        <div className="bg-gray-100 p-4 rounded-md text-gray-600 text-sm mb-2">
+          {/* Another ad can go here */}
         </div>
-        © 2025 QuickTools4U. All rights reserved.
+        <p>© 2025 QuickTools4U. All rights reserved.</p>
       </footer>
     </Router>
   );
